@@ -1,3 +1,7 @@
+// if k == rightChildCounter + 1 => this is the node
+// if k <= rightChildCounter => move right
+// else k = k - ( rightChildCounter + 1 )  and move left
+
 struct Tree {
     int val;
     Tree* left;
